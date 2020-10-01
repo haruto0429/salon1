@@ -1,0 +1,60 @@
+footer {
+    position: relative;
+}
+
+hr {
+    margin :5% 5% 0 5%;
+}
+
+.f-title {
+    font-size: 3.2rem;
+    font-family: Roboto Mono for Powerline;
+    color: #7070704D;
+    padding: 5% 0 5% 5%;
+    @include sp {
+        font-size: 2.5rem
+    }
+
+    i {
+        color: black;
+        @include sp {
+            
+            
+        }
+    }
+
+    @include sp {
+        display: none;
+        position: absolute;
+        top: 200px;
+    }
+    
+}
+
+
+
+
+.reserve {
+    
+    overflow: hidden;
+    padding: 5% 5% 0 81%;
+    
+    @include sp {
+        padding-left: 60%;
+    }
+    
+    
+    
+    p {
+        float: right;
+        display: flex;
+        font-size: 1.8rem;
+        font-family: Roboto Mono for Powerline;
+        color: #707070;
+        background: #FFFFFF;
+        border: 1px solid #707070;
+        padding: 10px 40px 10px 40px;
+        position: absolute;
+        top: 28%;
+    }
+}

@@ -1,0 +1,99 @@
+.concept {
+    background: linear-gradient(180deg,#A193861F 0%, #A193861F 25%, #A1938689 50%, #A1938689 100% );
+    position: relative;
+
+    
+
+    p {
+        color: #FFFFFF;
+        font-family: Hiragino KakuGothic ProN;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        text-align: right;
+        position: absolute;
+        right: 300px;
+        bottom: 75px;
+
+        @include sp {
+            white-space: nowrap;
+            transform: translate(60%, -30%);
+        }
+    }
+
+    
+}
+
+
+
+.con-img_1 img {
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 26.5%;
+    left: 7%;
+
+    @include sp {
+        position: absolute;
+        top: 240px;
+        left: 40px;
+        width: 200px;
+        height: 280px;
+        object-fit: cover;
+        object-position: 85% 50%;
+    }
+    
+}
+
+.con-img_2  {
+    width: 100%;
+    height: 400px;
+    min-width:391px;
+    min-height:413px;
+    position: absolute;
+    top: 26.5%;
+    left: 59%;
+
+    img {
+        @include sp {
+        position: absolute;
+        top: 0;
+        left: -45px;
+        width: 200px;
+        height: 280px;
+        object-fit: cover;
+        object-position: 70% 50%;
+        }
+    }
+
+    
+}
+
+
+
+
+
+.title-3 {
+    font-family: Hiragino Mincho Pro;
+    font-size: 4.0rem;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 389px 663px 129px 174px;
+
+    @include sp {
+        white-space: nowrap;
+        transform: translate(-10%,-30%);
+        font-size: 3.5rem;
+    }
+
+}
+
+        
+        
+        
+        
+
+
+
+
+
+

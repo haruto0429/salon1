@@ -1,0 +1,514 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=reset.css.map */
+html {
+  font-size: 62.4%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.sub-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-family: Roboto, Regular;
+  color: #707070;
+  letter-spacing: 5.4px;
+  padding-top: 328px;
+  transform: translate(7%, -37%);
+}
+@media screen and (max-width: 600px) {
+  .sub-title {
+    transform: translate(7%, -55%);
+  }
+}
+.sub-title:after {
+  display: inline-block;
+  align-items: center;
+  content: "";
+  border-top: 1px solid #707070;
+  width: 8rem;
+  margin-left: 1.7rem;
+}
+@media screen and (max-width: 600px) {
+  .sub-title:after {
+    width: 6rem;
+  }
+}
+
+.shop-name .access-text {
+  padding-left: 8%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+}
+
+@media screen and (max-width: 950px) {
+  nav {
+    display: none;
+  }
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  padding-top: 70px;
+  padding-right: 487px;
+}
+nav li {
+  margin-left: 15px;
+  font-size: 1.8rem;
+  font-family: Roboto Mono for Powerline;
+  color: #707070;
+}
+nav li:first-child {
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.hd-logo {
+  white-space: nowrap;
+  font-size: 3.8rem;
+  padding-top: 68px;
+  padding-left: 77px;
+  font-family: Roboto Mono for Powerline;
+}
+@media screen and (max-width: 600px) {
+  .hd-logo {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 2.8rem;
+  }
+}
+
+.ham {
+  display: none;
+}
+@media screen and (max-width: 950px) {
+  .ham {
+    width: 16px;
+    height: 14px;
+    margin-right: 20px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .ham span {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+  }
+}
+
+.first-v {
+  background-image: url(../img/component.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 770px;
+  background-size: 55%;
+}
+@media screen and (max-width: 600px) {
+  .first-v {
+    background-size: 100%;
+    background-color: #A193861F;
+  }
+}
+
+.title-1 {
+  font-family: Hiragino Mincho Pro;
+  font-size: 3.8rem;
+  width: 100%;
+  transform: translate(11%, 800%);
+}
+@media screen and (max-width: 600px) {
+  .title-1 {
+    color: #ffffff;
+    height: 48px;
+    font-size: 2.8rem;
+    padding-left: 10%;
+  }
+}
+
+.title-2 {
+  font-family: Zapfino;
+  font-size: 3.8rem;
+  width: 100%;
+  transform: translate(8%, 1050%);
+}
+@media screen and (max-width: 600px) {
+  .title-2 {
+    color: #ffffff;
+    height: 26px;
+    padding-left: 5%;
+  }
+}
+
+.concept {
+  background: linear-gradient(180deg, #A193861F 0%, #A193861F 25%, #A1938689 50%, #A1938689 100%);
+  position: relative;
+}
+.concept p {
+  color: #FFFFFF;
+  font-family: Hiragino KakuGothic ProN;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  text-align: right;
+  position: absolute;
+  right: 300px;
+  bottom: 75px;
+}
+@media screen and (max-width: 600px) {
+  .concept p {
+    white-space: nowrap;
+    transform: translate(60%, -30%);
+  }
+}
+
+.con-img_1 img {
+  width: 50%;
+  height: 400px;
+  position: absolute;
+  top: 26.5%;
+  left: 7%;
+}
+@media screen and (max-width: 600px) {
+  .con-img_1 img {
+    position: absolute;
+    top: 240px;
+    left: 40px;
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    object-position: 85% 50%;
+  }
+}
+
+.con-img_2 {
+  width: 100%;
+  height: 400px;
+  min-width: 391px;
+  min-height: 413px;
+  position: absolute;
+  top: 26.5%;
+  left: 59%;
+}
+@media screen and (max-width: 600px) {
+  .con-img_2 img {
+    position: absolute;
+    top: 0;
+    left: -45px;
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    object-position: 70% 50%;
+  }
+}
+
+.title-3 {
+  font-family: Hiragino Mincho Pro;
+  font-size: 4.0rem;
+  color: #FFFFFF;
+  width: 100%;
+  padding: 389px 663px 129px 174px;
+}
+@media screen and (max-width: 600px) {
+  .title-3 {
+    white-space: nowrap;
+    transform: translate(-10%, -30%);
+    font-size: 3.5rem;
+  }
+}
+
+.about-item {
+  width: 21%;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+  .about-item {
+    flex-direction: column;
+    width: 100%;
+    padding-right: 22%;
+  }
+}
+.about-item_title {
+  font-size: 3.0rem;
+  font-family: Roboto Mono for Powerline;
+  padding: 8% 0;
+}
+.about-item_text {
+  font-size: 1.6rem;
+  font-family: Roboto Mono for Powerline;
+  line-height: 3rem;
+}
+
+.menu-img {
+  margin-left: 34%;
+  position: relative;
+  bottom: 120px;
+}
+@media screen and (max-width: 600px) {
+  .menu-img {
+    padding-top: 12%;
+  }
+}
+
+.money {
+  font-size: 1.6rem;
+  margin-top: 8%;
+  text-align: right;
+}
+
+.access {
+  width: 100%;
+  background-color: #A193861F;
+  position: relative;
+  z-index: -1;
+}
+@media screen and (max-width: 600px) {
+  .access {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.back {
+  width: 30%;
+  height: 51%;
+  background-color: #D0C5BA;
+  position: absolute;
+  top: 230px;
+  bottom: -150px;
+  z-index: -1;
+}
+@media screen and (max-width: 600px) {
+  .back {
+    width: 100%;
+    position: absolute;
+    top: 380px;
+  }
+}
+
+.shop-name {
+  font-family: Roboto Mono for Powerline;
+  font-size: 2.4rem;
+  color: #00000038;
+  padding: 0 0 0 5%;
+  position: absolute;
+  top: 300px;
+}
+@media screen and (max-width: 600px) {
+  .shop-name {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 427px;
+  }
+}
+
+.access-text p {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  padding-left: 5%;
+  line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .access-text p {
+    font-size: 1rem;
+  }
+}
+
+.gmap iframe {
+  width: 70%;
+  height: 51%;
+  position: absolute;
+  left: 361px;
+  bottom: -2px;
+}
+@media screen and (max-width: 600px) {
+  .gmap iframe {
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    left: 0;
+  }
+}
+
+footer {
+  position: relative;
+}
+
+hr {
+  margin: 5% 5% 0 5%;
+}
+
+.f-title {
+  font-size: 3.2rem;
+  font-family: Roboto Mono for Powerline;
+  color: #7070704D;
+  padding: 5% 0 5% 5%;
+}
+@media screen and (max-width: 600px) {
+  .f-title {
+    font-size: 2.5rem;
+  }
+}
+.f-title i {
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .f-title {
+    display: none;
+    position: absolute;
+    top: 200px;
+  }
+}
+
+.reserve {
+  overflow: hidden;
+  padding: 5% 5% 0 81%;
+}
+@media screen and (max-width: 600px) {
+  .reserve {
+    padding-left: 60%;
+  }
+}
+.reserve p {
+  float: right;
+  display: flex;
+  font-size: 1.8rem;
+  font-family: Roboto Mono for Powerline;
+  color: #707070;
+  background: #FFFFFF;
+  border: 1px solid #707070;
+  padding: 10px 40px 10px 40px;
+  position: absolute;
+  top: 28%;
+}
+
+/*# sourceMappingURL=main.css.map */

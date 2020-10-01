@@ -1,0 +1,70 @@
+// mixin
+
+@mixin pc {
+    @media screen and (min-width: 960px){
+        @content;
+    }
+}
+
+@mixin tab {
+    @media screen and (max-width: 950px){
+        @content;
+    }
+}
+
+@mixin sp {
+    @media screen and (max-width: 600px){
+        @content;
+    }
+}
+
+
+
+
+
+
+
+
+
+// 共通
+html {
+    font-size: 62.4%;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.sub-title {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-family: Roboto, Regular;
+    color: #707070;
+    letter-spacing:  5.4px;
+    padding-top: 328px;
+    transform: translate(7%, -37%);
+    @include sp {
+        transform: translate(7%, -55%);
+    }
+
+
+    &:after {
+        display: inline-block;
+        align-items: center;
+        content: "";
+        border-top: 1px solid #707070;
+        width: 8rem;
+        margin-left: 1.7rem;
+        @include sp {
+            width: 6rem;
+        }
+    }
+}
+
+.shop-name .access-text {
+    padding-left: 8%;
+}
+

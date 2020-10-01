@@ -1,0 +1,44 @@
+ .first-v {
+    background-image: url(../img/component.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    width :100%;
+    height: 770px;
+    background-size: 55% ;
+    @include sp {
+        background-size: 100%;
+        background-color: #A193861F;
+        
+    }
+    
+}
+
+
+.title-1 {
+    font-family: Hiragino Mincho Pro;
+    font-size: 3.8rem;
+    width: 100%;
+    transform: translate(11%, 800%);
+    @include sp {
+        color: #ffffff;
+        height: 48px;
+       font-size: 2.8rem;
+       padding-left : 10%;
+        
+        
+    }
+
+}
+
+.title-2 {
+    font-family: Zapfino;
+    font-size: 3.8rem;
+    width: 100%;
+    transform: translate(8%, 1050%);
+    @include sp {
+        color: #ffffff;
+        height: 26px;
+        padding-left: 5%;
+    }
+}
+

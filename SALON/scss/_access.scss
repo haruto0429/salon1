@@ -1,0 +1,85 @@
+.access {
+    width: 100%;
+    background-color: #A193861F;
+    position: relative;
+    z-index: -1;
+    @include sp {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+}
+
+
+.back {
+    width: 30%;
+    height: 51%;
+    background-color: #D0C5BA;
+    position: absolute;
+    top: 230px;
+    bottom: -150px;
+    z-index: -1;
+    @include sp {
+        width: 100%;
+        position: absolute;
+        top: 380px;
+    }
+    
+    
+}
+
+.shop-name {
+    font-family: Roboto Mono for Powerline ;
+    font-size: 2.4rem;
+    color: #00000038;
+    padding:0 0 0 5%;
+    position: absolute;
+    top: 300px;
+    @include sp {
+        font-size: 1.8rem;
+        position: absolute;
+        top: 427px;
+    }
+    
+    
+}
+
+.access-text p {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    padding-left: 5%;
+    line-height: 30px;
+    @include sp {
+        font-size: 1rem;
+        
+        
+        
+        
+    }
+    
+}
+
+.gmap iframe {
+    width: 70%;
+    height: 51%;
+    position: absolute;
+    left: 361px;
+    bottom: -2px;
+
+    @include sp {
+        width: 100%;
+        position: absolute;
+        top: 180px;
+        left: 0;
+
+        
+    }
+}
+
+
+    
+    
+            
+                
+
